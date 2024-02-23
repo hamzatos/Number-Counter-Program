@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    font-family: Arial;
+}
+#text{
+    font-size: 4em;
+    margin: 1px;
+}
+button{
+    font-size: 1.5em;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+#increase{
+    background-color: hsl(202, 100%, 58%);
+}
+#increase:hover{
+    background-color: hsl(202, 100%, 68%);
+}
+#increase:active{
+    background-color: hsl(202, 100%, 78%);
+}
+#decrease{
+    background-color: hsl(110, 100%, 50%);
+}
+#decrease:hover{
+    background-color: hsl(120, 80%, 75%);
+}
+#decrease:active{
+    background-color: hsl(120, 80%, 80%);
+}
+#reset{
+    background-color: hsl(0, 71%, 63%);
+}
+#reset:hover{
+    background-color: hsl(0, 71%, 73%);
+}
+#reset:active{
+    background-color: hsl(0, 71%, 83%);
+}
